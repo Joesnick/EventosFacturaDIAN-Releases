@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
-  "url_descarga": "https://github.com/Joesnick/EventosFacturaDIAN-Releases/releases/download/v1.0.1/ContaClick360-EventosFacturaDIAN.zip",
-  "novedades": "Nuevo esquema de planes (suscripcion_anual, contador_basico/premium/full, ilimitado) con aliases retro-compat. Header con plan/NITs clickeable y botón ❓ Ayuda + atajo F1. Mudanza de evidencias/logs/backups a %LOCALAPPDATA%. Suite de tests para telemetría. Versión leída dinámicamente del version.json."
+  "version": "1.0.2",
+  "url_descarga": "https://github.com/Joesnick/EventosFacturaDIAN-Releases/releases/download/v1.0.2/ContaClick360-EventosFacturaDIAN.zip",
+  "novedades": "Corrección: la normalización de NIT ahora acepta cédulas de persona natural (6 a 8 dígitos), que antes no se registraban ni aparecían en el listado de NITs autorizados. Reúso de la sesión de 'Verificar Token' al realizar eventos, para no gastar el token DIAN (que es de un solo uso). Nueva consola de detalles en vivo, embebida y con ventana ampliable. Mapeo más robusto de las columnas del Excel del Verificador (coincidencia exacta, por prefijo y por subcadena). Resolución más fiable del icono y los recursos en el ejecutable empaquetado."
 }
